@@ -1,0 +1,36 @@
+O que é o Docker?
+
+O Docker é uma plataforma de software livre que permite aos desenvolvedores
+desenvolver, implementar, executar, atualizar e gerenciar componentes
+de contêineres executáveis e padronizados que combinam o código-fonte de aplicativos
+com as bibliotecas e estruturas do sistema operacional (S.O.) necessárias para executar o
+código em qualquer ambiente.
+
+Utilização Prática
+
+A utilização prática do Docker é a implantação de uma aplicação web. Suponha que você
+tenha uma aplicação web escrita em Python e deseje implantá-la em vários servidores.
+Com o Docker, você pode criar um container que contenha todo o ambiente necessário
+para a execução da aplicação, incluindo o Python e as bibliotecas necessárias. Em
+seguida, você pode facilmente implantar o container em todos os servidores, garantindo
+que todos os servidores tenham a mesma configuração e as mesmas bibliotecas.
+Uma utilização prática do Docker seria a implantação de uma aplicação web em diferentes
+ambientes, como desenvolvimento, teste e produção.
+
+Aqui está um exemplo de como isso poderia ser feito:
+
+1. Desenvolvimento: durante o desenvolvimento, os desenvolvedores podem usar o
+Docker para criar containers com todas as ferramentas e bibliotecas necessárias
+para desenvolver a aplicação. Isso garante que todos os desenvolvedores estejam
+trabalhando no mesmo ambiente e evita problemas com diferenças entre
+máquinas.
+
+2. Teste: quando a aplicação estiver pronta para ser testada, o Docker pode ser usado
+para implantar containers com a aplicação em um ambiente de teste. Isso garante
+que a aplicação seja testada em um ambiente semelhante ao de produção e evita
+problemas com diferenças entre ambientes.
+
+3. Produção: finalmente, o Docker pode ser usado para implantar containers com a
+aplicação em produção. Isso permite que a aplicação seja implantada rapidamente
+e facilmente em vários servidores, garantindo que todos os servidores tenham a
+mesma configuração
